@@ -1,9 +1,6 @@
 #include "file_utils.hpp"
 
-namespace file_utils {
-
-std::string readFile(const std::string& filename) {
-
+std::string FileUtils::readFile(const std::string& filename) {
     std::ifstream file(filename.c_str(), std::ios::in | std::ios::binary);
     if (!file.is_open()) {
         throw std::runtime_error("Could not open file for reading: " + filename);
@@ -24,7 +21,7 @@ std::string readFile(const std::string& filename) {
     return content;
 }
 
-void writeFile(const std::string& filename, const std::string& content) {
+void FileUtils::writeFile(const std::string& filename, const std::string& content) {
     std::ofstream file(filename.c_str(), std::ios::out | std::ios::binary);
     if (!file.is_open()) {
         throw std::runtime_error("Could not open file for writing: " + filename);
@@ -35,6 +32,4 @@ void writeFile(const std::string& filename, const std::string& content) {
     if (file.fail()) {
         throw std::runtime_error("Error writing file: " + filename);
     }
-}
-
 }

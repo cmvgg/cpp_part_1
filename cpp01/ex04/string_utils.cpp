@@ -1,8 +1,6 @@
 #include "string_utils.hpp"
 
-namespace string_utils {
-
-std::string replaceAll(const std::string& str, const std::string& s1, const std::string& s2) {
+std::string StringUtils::replaceAll(const std::string& str, const std::string& s1, const std::string& s2) {
     std::string result;
     size_t pos = 0;
     size_t s1Len = s1.length();
@@ -19,6 +17,4 @@ std::string replaceAll(const std::string& str, const std::string& s1, const std:
     }
 
     return result;
-}
-
 }

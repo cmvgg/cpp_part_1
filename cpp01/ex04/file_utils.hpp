@@ -4,15 +4,12 @@
 #include <string>
 #include <fstream>
 #include <stdexcept>
-#include <cstdlib>
-#include <sys/stat.h>
+#include <iostream>
 
-namespace file_utils {
-
-std::string readFile(const std::string& filename);
-
-void writeFile(const std::string& filename, const std::string& content);
-
-}
+class FileUtils {
+public:
+    static std::string readFile(const std::string& filename);
+    static void writeFile(const std::string& filename, const std::string& content);
+};
 
 #endif
