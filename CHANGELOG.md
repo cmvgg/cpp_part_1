@@ -1,3 +1,4 @@
+4b50c4e - cmvgg, 6 hours ago : Correcciones de linting 11/08/2024--12:46
 09054c7 - cmvgg, 2 days ago : 00 to test in mac 09/08/2024--16:22
 ab862fe - cmvgg, 2 days ago : Correcciones de linting 09/08/2024--16:22
 320481b - cmvgg, 2 days ago : all ok to test in mac 09/08/2024--16:20
