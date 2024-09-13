@@ -14,11 +14,24 @@ std::string getInput(const std::string& banner) {
 
 int main(void) {
     std::string input = getInput("Enter the number of zombies: ");
-    int N = std::atoi(input.c_str()); // Use atoi instead of std::stoi
+    int N;
+    try {
+        N = std::atoi(input.c_str());
+        if (N <= 0) {
+            std::cerr << "Number of zombies must be positive." << std::endl;
+            return 1;
+        }
+    } catch (const std::invalid_argument& e) {
+        std::cerr << "Invalid number format. Exiting." << std::endl;
+        return 1;
+    }
 
-    std::string name = getInput("Enter the name of the zombies: ");
+    Zombie* zombies = new Zombie[N];
 
-    Zombie* zombies = zombieHorde(N, name);
+    for (int i = 0; i < N; ++i) {
+        std::string name = getInput("Enter the name of zombie: ");
+        zombies[i].setName(name);
+    }
 
     for (int i = 0; i < N; ++i) {
         zombies[i].announce();
@@ -28,4 +41,3 @@ int main(void) {
     delete[] zombies;
     return 0;
 }
-
