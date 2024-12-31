@@ -35,7 +35,7 @@ std::string Phonebook::getInput(const std::string& prompt) const {
 }
 
 bool Phonebook::isValidPhoneNumber(const std::string& phoneNumber) const {
-    if (phoneNumber.empty()) {
+    if (phoneNumber.empty())
         return false;
 
     if (phoneNumber[0] == '+') {

@@ -1,0 +1,174 @@
+[1mcpp00/ex00/megaphone.cpp:1:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/contactClass.hpp:4:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/contactClass.hpp:5:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.hpp:5:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.hpp:6:0: [31minformation:[39m Include file: <stdlib.h> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.hpp:7:0: [31minformation:[39m Include file: <stdio.h> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.hpp:8:0: [31minformation:[39m Include file: <iomanip> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.hpp:9:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.hpp:10:0: [31minformation:[39m Include file: <ctime> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.hpp:11:0: [31minformation:[39m Include file: <unistd.h> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp00/ex01/phonebookClass.cpp:2:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex00/Zombie.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex00/Zombie.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex01/zombie.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex01/zombie.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex01/zombie.hpp:6:0: [31minformation:[39m Include file: <cstdlib> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex01/zombie.hpp:7:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex02/main.cpp:1:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex03/Weapon.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex03/Weapon.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex03/HumanA.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex03/HumanA.hpp:6:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex03/HumanB.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex03/HumanB.hpp:6:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex04/file_utils.hpp:4:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex04/file_utils.hpp:5:0: [31minformation:[39m Include file: <fstream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex04/file_utils.hpp:6:0: [31minformation:[39m Include file: <stdexcept> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex04/file_utils.hpp:7:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex04/string_utils.hpp:4:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex05/Harl.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp01/ex05/Harl.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp02/ex00/Fixed.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp02/ex01/Fixed.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp02/ex01/Fixed.hpp:5:0: [31minformation:[39m Include file: <cmath> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp02/ex02/Fixed.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp02/ex02/Fixed.hpp:5:0: [31minformation:[39m Include file: <cmath> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp03/ex00/ClapTrap.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp03/ex00/ClapTrap.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp03/ex01/ClapTrap.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp03/ex02/ClapTrap.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp03/ex02/ClapTrap.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex00/Animal.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex00/Animal.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex00/WrongAnimal.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex00/WrongAnimal.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex01/Animal.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex01/Animal.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex01/Brain.hpp:4:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex01/Brain.hpp:5:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex01/WrongAnimal.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex01/WrongAnimal.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex02/Animal.hpp:4:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex02/Animal.hpp:5:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex02/Brain.hpp:4:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex02/Brain.hpp:5:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex02/WrongAnimal.hpp:4:0: [31minformation:[39m Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex02/WrongAnimal.hpp:5:0: [31minformation:[39m Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
+[1mcpp04/ex02/WrongAnimal.hpp:6:0: [31minformation:[39m Include file: <ostream> not found. Please note: Cppcheck does not need standard library headers to get proper results. [missingIncludeSystem][0m
+
+^
