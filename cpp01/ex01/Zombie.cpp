@@ -1,6 +1,6 @@
 #include "zombie.hpp"
 
-Zombie::Zombie(void) : name("") { // Initialization list to initialize name
+Zombie::Zombie(void) : name("") { 
 }
 
 Zombie::~Zombie(void) {

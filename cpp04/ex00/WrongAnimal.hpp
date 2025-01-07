@@ -20,8 +20,7 @@ class WrongAnimal {
 
         WrongAnimal& operator=(const WrongAnimal& other);
 
-        const string& getType() const;
-        void makeSound() const;
+        virtual void makeSound() const;
 };
 
 #endif

@@ -1,6 +1,11 @@
 #include "Weapon.hpp"
 
-Weapon::Weapon(const std::string& str) : type(str) {
+Weapon::Weapon(const char* str) {
+    if (str == NULL) {
+        type = "";  // Asignamos una cadena vacía en caso de que el puntero sea NULL
+    } else {
+        type = str;  // Si no es NULL, lo usamos directamente para inicializar la cadena
+    }
     std::cout << "Constructor Weapon" << std::endl;
 }
 

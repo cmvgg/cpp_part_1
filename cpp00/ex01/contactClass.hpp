@@ -21,9 +21,9 @@ public:
     std::string getPhoneNumber() const;
     std::string getDarkestSecret() const;
 
-    std::string truncate(const std::string& str) const;  // Asegúrate de que esta línea esté aquí
-    void clear();  // Asegúrate de que esta línea esté aquí
-    void display() const;  // Asegúrate de que esta línea esté aquí
+    std::string truncate(const std::string& str) const;
+    void clear();
+    void display() const;
 
 private:
     std::string _firstName;

@@ -1,7 +1,7 @@
 #include "contactClass.hpp"
 
 Contact::Contact() {
-    std::cout << "Contact created" << std::endl;
+    ;
 }
 
 Contact::~Contact() {

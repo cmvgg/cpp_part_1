@@ -23,9 +23,6 @@ WrongAnimal& WrongAnimal::operator=(const WrongAnimal& other) {
     return *this;
 }
 
-const string& WrongAnimal::getType() const {
-    return type;
-}
 void WrongAnimal::makeSound() const {
     cout << "WrongAnimal sound" << endl;
 }

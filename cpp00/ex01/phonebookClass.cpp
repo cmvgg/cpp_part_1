@@ -14,7 +14,7 @@ Phonebook::~Phonebook() {
 
 void Phonebook::displayBanner() const {
     std::cout << " _________________________________ " << std::endl
-              << "|     Phonebook:                   |" << std::endl
+              << "|     Phonebook:                  |" << std::endl
               << "| 1. ADD   2. SEARCH   3. EXIT    |" << std::endl
               << "|_________________________________|" << std::endl;
 }
@@ -35,9 +35,9 @@ std::string Phonebook::getInput(const std::string& prompt) const {
 }
 
 bool Phonebook::isValidPhoneNumber(const std::string& phoneNumber) const {
-    if (phoneNumber.empty())
+    if (phoneNumber.empty()) {
         return false;
-
+    }
     if (phoneNumber[0] == '+') {
         for (size_t i = 1; i < phoneNumber.size(); ++i) {
             if (!isdigit(phoneNumber[i])) {
